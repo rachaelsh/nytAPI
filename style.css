@@ -3,13 +3,17 @@ body{
   background-color: #FFFAF0;
   font-family: 'Special Elite', cursive;
 }
-h1, h2, h3, span {
 
+h1, h2, h3, span{
   font-family: 'IM Fell English', serif;
 }
 
-.carousel-control.left, .carousel-control.right {
-    background-image: none;
+#htwo {
+  font-size: 28px;
+}
+#hone {
+  margin-top: 0;
+  font-size: 80px;
 }
 
 .jumbotron {
@@ -19,16 +23,29 @@ h1, h2, h3, span {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .space {
   margin-top: 50px;
 }
 
-.carousel-inner {
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+}
+
+.carousel-content {
   background-color: white;
   opacity: 0.6;
-  /*box-shadow: */
-  border-radius:
+  box-shadow: 0 0 12 12 #fff;
+  border-radius: 13px;
+  vertical-align: middle;
 }
+
+a {
+  background-color: #000;
+}
+
+
 
 .btn-default{
   width: 60px;
@@ -40,16 +57,19 @@ h1, h2, h3, span {
   background-color: #FFFAF0;
 }
 
-.thumbnail p {
+/*.thumbnail p {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-}
+}*/
+/*.thumbnail h3 {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}*/
 
 .thumb-container {
   margin-top: 60px;
-  width: 70vw;
-  align-self:center;
 }
 
 a:hover{
