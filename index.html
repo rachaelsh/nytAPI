@@ -60,7 +60,7 @@
 <div class="row content-center">
   <form type="submit" class="col-sm-offset-3 col-sm-6" ng-submit="searchArticles(input)">
     <div class="input-group">
-    <input type="text" class="form-control" placeholder="What interests you?">
+    <input ng-model="input" type="text" class="form-control" placeholder="What interests you?">
       <span class="input-group-btn">
         <button class="btn btn-default">
           <img class="img-responsive" src="images/pointing_hand.svg" alt="Click To Discover"/>
